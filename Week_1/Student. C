@@ -6,7 +6,7 @@ struct student
 {
 	int roll;
 	char name[30];
-	int m[3];
+	int m[4];
 };
 int main()
 {
@@ -25,7 +25,7 @@ int main()
 			scanf("%d",&s[i].m[j]);
 			sum += s[i].m[j];
 		}
-		avg = sum/3.0;
+		avg = sum/4.0;
 		if(avg>=75)
 			grade = 'A';
 		else if(avg>=50)
