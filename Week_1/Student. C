@@ -20,7 +20,7 @@ int main()
 		sum = 0;
 		scanf("%d",&s[i].roll);
 		scanf("%s",&s[i].name);
-		for(j=0;j<3;j++)
+		for(j=0;j<4;j++)
 		{
 			scanf("%d",&s[i].m[j]);
 			sum += s[i].m[j];
